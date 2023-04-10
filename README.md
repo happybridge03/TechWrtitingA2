@@ -155,8 +155,8 @@ Navigate to the top of this repository's [GitHub page](https://github.com/happyb
 
 Select the `Local` and `HTTP` tabs. Then copy the address from the text box there.
 
-> ![](./Photos/Github%20HTTP%20Address.png)
-> *Figure 5*: 
+> ![The GitHub page for this repository with the HTTPS URL highlighted in yellow.](./Photos/Github%20HTTP%20Address.png)
+> *Figure 5*: The GitHub page for this repository with the HTTPS URL highlighted in yellow.
 
 #### 8. Use the address to clone the repository
 
@@ -170,8 +170,8 @@ git clone <address>
 
 After you run this command there should be a new folder called `TechWritingA2` in your original folder. The contents of this repository has now been downloaded into this folder.
 
-> ![](./Photos/Git%20Repository%20Cloned.png)
-> **Figure 6**:
+> ![A terminal displaying the expected execution of the `git clone` command.](./Photos/Git%20Repository%20Cloned.png)
+> **Figure 6**: A terminal displaying the expected execution of the `git clone` command.   
 
 
 #### 9. Inspect information about the repository
@@ -194,7 +194,10 @@ Next, run the command:
 git branch
 ```
 
-The `branch` command displays a list of branches in the repository. The branch which you are currently located on will have an astrict next to it. 
+The `branch` command displays a list of branches in the repository (Fig 7). The branch which you are currently located on will have an astrict next to it. 
+
+> ![The expected execution of the `git branch` command.](./Photos/Git%20Branch%20Command.png)
+> Figure 7: The expected execution of the `git branch` command. Notice how the `main` branch is both highlighted in green and has an astrict next to it.
 
 To see a visual representation of how the different branches relate to one another run the command:
 ```
